@@ -1,0 +1,440 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-button {
+  background: #222;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-corner {
+  background: #999;
+}
+
+::-webkit-resizer {
+  background: #111;
+}
+
+@font-face {
+  font-family: "reg";
+  src: url(./Font/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "reglight";
+  src: url(./Font/Poppins-Light.ttf);
+}
+
+:root {
+  --regColor: #0263ee;
+  --conFColor: #e7f5fe;
+}
+* {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "reg";
+  text-decoration: none !important;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+.boxSet {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.container_c {
+  width: 60%;
+}
+.container_f {
+  background-color: var(--conFColor);
+  width: 100%;
+}
+.head {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "reg";
+  position: relative;
+}
+.head .leftHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.head .leftHead img {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.head .rightHead {
+  display: flex;
+  align-items: center;
+  width: 60%;
+
+  justify-content: flex-end;
+}
+.head .rightHead a {
+  display: inline;
+  text-align: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  transition: all 0.3s ease 0s;
+
+  width: fit-content;
+}
+.head .rightHead a:hover {
+  color: var(--regColor);
+}
+.mobileNav{
+  display: none;
+}
+.mobHead {
+  width: 20%;
+  color: var(--regColor);
+  position: relative;
+
+  display: flex;
+  right: -3rem;
+  cursor: pointer;
+}
+.mobHead span {
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+.menu{
+  display: none;
+}
+
+.padmar {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+/* section 1 */
+.SectionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SectionContainer .SectionContainerLeft {
+  width: 50%;
+}
+.SectionContainer .SectionContainerLeft a {
+  color: black;
+  font-size: 2.5rem;
+}
+.SectionContainer .SectionContainerLeft a:nth-child(2) {
+  color: var(--regColor);
+}
+.SectionContainer .SectionContainerRight {
+  width: 50%;
+}
+.btn-p {
+  border-radius: 5px;
+  color: white;
+  background-color: var(--regColor);
+  padding: 5px 15px;
+  border: 1px solid #0263ee;
+  width: fit-content;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  font-size: 1.1rem;
+}
+.btn-p:hover {
+  color: var(--regColor);
+  background-color: white;
+  border-color: var(--regColor);
+}
+.setTopMar {
+  position: relative;
+  top: 2rem;
+}
+.SectionContainer .SectionContainerRight img {
+  width: 100%;
+  object-fit: contain;
+}
+.seventStar {
+  width: 100%;
+  display: flex;
+  padding: 3rem 0;
+}
+.seventStar .seventStarLeft {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seventStar .seventStarLeft a {
+  width: 100%;
+  font-size: 1.8rem;
+}
+.seventStar .seventStarRight {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seventStar .seventStarRight p {
+  width: 77%;
+  font-weight: 0;
+  text-align: left;
+}
+.SecondIcon {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  width: 100%;
+
+  padding: 3rem 0;
+}
+.SecondIcon .SecondIcon1 {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+
+  align-items: center;
+  margin: 0 1rem;
+}
+.SecondIcon .SecondIcon1 .secimg {
+  width: 30%;
+}
+.SecondIcon .SecondIcon1 .secimg img {
+  width: 100%;
+  object-fit: contain;
+}
+.SecondIcon .SecondIcon1 a {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+.SecondIcon .SecondIcon1 p {
+  font-family: 1rem;
+  text-align: center;
+  font-family: "reglight";
+}
+.ThirdEx {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+}
+.ThirdEx .ThirdExLeft {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ThirdEx .ThirdExLeft .ThirdExLeftImg {
+  width: 70%;
+  object-fit: contain;
+}
+.ThirdEx .ThirdExRight {
+  width: 50%;
+  padding-top: 3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+}
+.ThirdEx .ThirdExRight a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.ThirdEx .ThirdExRight ul {
+  list-style: none;
+  padding-top: 1rem;
+}
+.ThirdEx .ThirdExRight ul li {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  padding: 0.8rem 0;
+  font-family: "reglight";
+}
+.ThirdEx .ThirdExRight ul li img {
+  width: 20px;
+  height: 22px;
+  margin: 0 1.5rem 0 0.5rem;
+}
+.FourBePart {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 3rem;
+  row-gap: 50px;
+  column-gap: 0;
+  padding: 2rem 0;
+  font-family: "reg";
+}
+.FourBePart .FourBePartCard {
+  border: 2px solid #7890fe;
+  width: 80%;
+  height: 150px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 12px;
+}
+.FourBePart .FourBePartCard img {
+  width: 20%;
+  object-fit: contain;
+  position: absolute;
+  top: -1.5rem;
+  left: 1.5rem;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+}
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+}
+.footer .footer1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+.footer .footer1 .flogo {
+  width: 100%;
+  cursor: pointer;
+}
+
+.footer .footer1 .aHeadFoot {
+  padding: 0.5rem 0;
+  font-family: "reg";
+}
+.footer .footer1 .aHeadFoot:hover {
+  color: black !important;
+}
+.footer .footer1 a {
+  padding: 0.2rem 0;
+  text-decoration: none;
+  font-family: "reglight";
+  color: black;
+  transition: all 0.3s ease 0s;
+}
+.footer .footer1 a:hover {
+  color: var(--regColor);
+}
+.ahov:hover {
+  color: black !important;
+}
+.footer .footer1 .flogo img {
+  width: 70%;
+  object-fit: contain;
+}
+.footer .footer1 .socialIcon {
+  width: 100%;
+  display: flex;
+
+  margin-top: 0.5rem;
+}
+.footer .footer1 .socialIcon img {
+  width: 30px;
+  transition: all 0.3s ease 0s;
+}
+.footer .footer1 .socialIcon a {
+  display: flex;
+  column-gap: 12px;
+}
+.footer .footer1 .socialIcon a:hover img {
+  transform: rotate(50deg);
+}
+.carousel {
+  position: relative;
+}
+.try {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid red;
+}
+.textSet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: visible;
+  background-color: transparent;
+
+  height: 300px;
+}
+.textSet p {
+  width: 50%;
+
+  position: relative;
+  overflow: visible;
+  font-family: "reg";
+}
+.textSet .span1 {
+  position: absolute;
+  top: 1rem;
+  left: -20rem;
+  font-size: 5rem;
+}
+.textSet .span1 img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+.textSet .span2 {
+  position: absolute;
+  bottom: 2.8rem;
+  right: -20rem;
+  font-size: 5rem;
+}
+.textSet .span2 img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+.carousel-indicators {
+  display: none !important;
+}
+
+.car_head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.car_head a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-family: "reg";
+  padding: 1rem 0;
+}

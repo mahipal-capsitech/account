@@ -1,0 +1,386 @@
+@media (max-width: 1510px) {
+  .container_c {
+    width: 80%;
+  }
+  .footer .footer1 .flogo img {
+    width: 70%;
+    object-fit: contain;
+  }
+}
+@media (max-width: 1345px) {
+  .footer .footer1 .flogo img {
+    width: 100%;
+  }
+}
+@media (max-width: 1262px) {
+  .container_c {
+    width: 120%;
+  }
+}
+@media (max-width: 1024px) {
+  .container_c {
+    width: 95%;
+  }
+  .footer {
+  }
+  .footer .footer1 {
+    width: 100%;
+  }
+  .footer .footer1 .flogo {
+    position: absolute;
+    bottom: -3.5rem;
+    left: 0;
+    background-color: white;
+    width: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7f5fe;
+  }
+  .footer .footer1 .flogo img {
+    width: 200px;
+    height: fit-content;
+    margin-left: -0.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .head {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .head .leftHead {
+    width: 40%;
+    margin: 0;
+    padding: 0;
+  }
+  .head .leftHead img {
+    margin: 0;
+    padding: 0;
+  }
+  .head .rightHead {
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+
+  .menu .mobileNav .MobLogo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu .mobileNav .MobLogo img {
+    width: 30%;
+    object-fit: contain;
+  }
+  .menu .mobileNav a {
+    color: #0263ee;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    padding: 0.5rem;
+  }
+  .menu .mobileNav a:hover {
+    background-color: #0263ee;
+    color: white;
+  }
+  .menu:hover .mobileNav {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+    /* border: 1px solid red; */
+    width: 105%;
+    height: 100vh;
+    background-color: white;
+    z-index: 2;
+
+    text-align: center;
+  }
+
+  .head .rightHead a {
+    display: none;
+  }
+
+  .mobHead {
+    display: none;
+  }
+  .seventStar .seventStarRight p {
+    width: 90%;
+  }
+  .SecondIcon {
+    grid-template-columns: auto auto;
+  }
+  .SecondIcon .SecondIcon1 {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+    margin: 0.5rem 1rem;
+  }
+  .ThirdEx {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .ThirdEx .ThirdExLeft {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ThirdEx .ThirdExRight {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .ThirdEx .ThirdExRight ul li {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    padding-left: 10rem;
+  }
+  .FourBePart {
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding-left: 3rem;
+  }
+
+  .textSet .span1 {
+    left: -13rem;
+  }
+
+  .textSet .span2 {
+    right: -13rem;
+  }
+  .footer .footer1:nth-child(1) {
+    width: 0;
+    display: none;
+    /* border: 1px solid red; */
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  .SectionContainer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .SectionContainer .SectionContainerLeft {
+    width: 90%;
+    text-align: center;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .SectionContainer .SectionContainerRight {
+    width: 70%;
+  }
+  .setTopMar {
+    position: relative;
+    top: 1.5rem;
+  }
+  .seventStar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0;
+  }
+  .seventStar .seventStarLeft {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .seventStar .seventStarLeft a {
+    font-size: 0px;
+    padding: 0.5rem 0;
+  }
+  .seventStar .seventStarLeft a::before {
+    content: "Seven Star Accounting";
+    font-size: 1.5rem;
+  }
+  .seventStar .seventStarRight {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .seventStar .seventStarRight p {
+    width: 98%;
+    font-weight: 0;
+    text-align: left;
+  }
+  .SecondIcon {
+    grid-template-columns: auto;
+    row-gap: 10px;
+  }
+  .SecondIcon .SecondIcon1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #ddd;
+    align-items: center;
+    margin: 0 0rem;
+    border-radius: 12px;
+  }
+
+  .ThirdEx .ThirdExLeft {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ThirdEx .ThirdExRight {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .ThirdEx .ThirdExRight ul li {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    padding-left: 5rem;
+  }
+  .textSet .span1 {
+    left: -11rem;
+  }
+
+  .textSet .span2 {
+    right: -11rem;
+  }
+}
+@media (max-width: 375px) {
+  .head .leftHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+  .menu .mobileNav .MobLogo img {
+    width: 50%;
+    object-fit: contain;
+  }
+  .menu:hover .mobileNav {
+    width: 110%;
+  }
+  .SectionContainer .SectionContainerLeft {
+    width: 100%;
+    text-align: center;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .SectionContainer .SectionContainerRight {
+    width: 100%;
+  }
+  .setTopMar {
+    position: relative;
+    top: 1.5rem;
+  }
+  .seventStar .seventStarRight a {
+    padding-left: 0.5rem;
+    border: 1px solid red;
+  }
+  .seventStar .seventStarRight p {
+    width: 95%;
+
+    text-align: justify;
+  }
+  .seventStar .seventStarLeft a {
+    /* border: 1px solid red; */
+    padding-left: 0.5rem;
+  }
+  .SecondIcon .SecondIcon1 {
+    width: 100%;
+    padding: 0 0.2rem;
+  }
+
+  .ThirdEx .ThirdExRight ul li {
+    /* border: 1px solid red; */
+    display: flex;
+    /* align-items: center; */
+    padding-left: 0rem;
+    font-size: 0.9rem;
+  }
+  .ThirdEx .ThirdExLeft .ThirdExLeftImg {
+    width: 80%;
+    object-fit: contain;
+  }
+  .FourBePart {
+    grid-template-columns: auto;
+    margin: 0;
+    padding: 0;
+    margin-left: 0.5rem;
+    align-items: center;
+  }
+  .FourBePart .FourBePartCard {
+    width: 95%;
+    margin: 0;
+  }
+
+  .textSet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: visible;
+    background-color: transparent;
+  
+    height: 300px;
+  }
+  .textSet p {
+  font-size: 0.8rem;
+  width: 60%;
+  }
+  .textSet .span1 {
+    position: absolute;
+    top: 0rem;
+    left: -8rem;
+    font-size: 5rem;
+  }
+  .textSet .span1 img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  .textSet .span2 {
+    position: absolute;
+    bottom: 1.3rem;
+    right: -8rem;
+    font-size: 5rem;
+  }
+  .textSet .span2 img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+  }
+  .footer .footer1 {
+   text-align: center;
+  }
+}
